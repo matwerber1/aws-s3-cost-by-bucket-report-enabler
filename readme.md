@@ -14,13 +14,17 @@ Therefore, if you tag each Amazon S3 bucket with a tag equal to the bucket's nam
 
 Rather than do this manually, the included `index.js` function will programmatically obtain a list of all Amazon S3 buckets (in the current region), inspects each bucket's tags, and if a `BucketName` tag is not present, it adds in `BucketName` tag with a value equal to the bucket's name. If the tag is present but, for some reason, the value does not match the bucket name, it also correct's the tag's value to match the bucket name. 
 
-## Improvements
+## Potential Improvements
+
+Accepting pull requests :)
 
 1. This example is Node script that may be run locally and serves as a basic demo. 
 
 2. It does not have robust error handling and does not currently handle scenarios where the list of existing buckets is too large for a single API response (i.e. it doesn't take into consideration NextTokens in the ListBuckets() API). 
 
 3. It could be automated by converting it to an AWS Lambda function and scheduling that AWS Lambda function to run periodically. 
+
+4. Make script work across all regions
 
 
 ## Deployment
