@@ -1,4 +1,4 @@
-# AWS S3 Cost By Bucket Report Enabler
+# AWS S3 Cost By Bucket Report Enabler (via Cost Allocation Tags)
 
 ## TLDR; 
 
