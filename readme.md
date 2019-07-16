@@ -1,8 +1,8 @@
-# AWS S3 Cost By Bucket Report Enabler (via Cost Allocation Tags)
+# AWS S3 Cost By Bucket Report Enabler
 
 ## TLDR; 
 
-This script serves as basic demo of how to report AWS costs by bucket in Amazon S3. It is based on the guidance from https://aws.amazon.com/premiumsupport/knowledge-center/s3-find-bucket-cost/.
+This script serves as basic demo of how to report AWS costs by bucket in Amazon S3 using AWS Cost Explorer + cost allocation tags. It is based on the guidance from https://aws.amazon.com/premiumsupport/knowledge-center/s3-find-bucket-cost/.
 
 ## Summary
 
