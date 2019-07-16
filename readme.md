@@ -43,7 +43,7 @@ Accepting pull requests :)
 
 4. Wait up to ~24 hours for the tag to be reflected in the cost reports. 
 
-  * Note - tags are not retroactively applied to cost reports.
+  * Note - tags are not retroactively applied to prior cost data.
 
 5. Navigate to the [AWS Cost Explorer](https://console.aws.amazon.com/cost-reports/home#/custom?groupBy=None&hasBlended=false&hasAmortized=false&excludeDiscounts=true&excludeTaggedResources=false&timeRangeOption=Custom&granularity=Daily&reportName=&reportType=CostUsage&isTemplate=true&startDate=2019-06-01&endDate=2019-07-16&filter=%5B%7B%22dimension%22:%22RecordType%22,%22values%22:%5B%22Refund%22,%22Credit%22%5D,%22include%22:false,%22children%22:null%7D%5D&forecastTimeRangeOption=None&usageAs=usageQuantity&chartStyle=Group), click the **More** button on the graph, select **Tag**, and choose **BucketName** as the **Group by** option. 
 
