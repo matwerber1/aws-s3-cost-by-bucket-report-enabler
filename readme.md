@@ -8,7 +8,7 @@ https://aws.amazon.com/premiumsupport/knowledge-center/s3-find-bucket-cost/
 
 ## Summary
 
-AWS Cost Explorer allows you to view aggregate Amazon S3 costs by dimensions including but not limited to date, region, and AWS account ID. However, out-of-the-box, you cannot view AWS costs by individual bucket within the Cost Explorer.
+AWS Cost Explorer allows you to view aggregate Amazon S3 costs by dimensions including but not limited to date, region, and AWS account ID. Out-of-the-box, you cannot view AWS costs by individual bucket within the Cost Explorer.
 
 However, the Cost Explorer does allow you to designate one or more AWS resource tags as [Cost Allocation Tags](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/cost-alloc-tags.html), which means you can use them to further group costs in the Cost Explorer. 
 
